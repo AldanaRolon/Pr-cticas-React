@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  margin: 0;
+  background-image: url(https://streaming.resources.smartraining.cl/iaas/iaas_m1_pi/images/fondo3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}

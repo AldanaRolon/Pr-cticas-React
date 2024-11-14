@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 180px;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 0 0px 2px #fff;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.container-image {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.container-text {
+    margin: 0%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    flex: 1;
+    padding: 30px;
+    color: white;
+}
+
+.container-text h2 {
+    font-size: 3vw;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.container-text p {
+    line-height: 1.5;
+    font-size: 1.5vw;
+}
